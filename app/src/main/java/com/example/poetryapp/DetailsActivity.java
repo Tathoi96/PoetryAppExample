@@ -31,8 +31,8 @@ public class DetailsActivity extends AppCompatActivity {
         btnPause=findViewById(R.id.btn_pause);
 
     //comments
-//url
-
+ //url
+//poetry
         String getPoetry=getIntent().getExtras().getString("poetry");
         if(getPoetry.equals("koi"))
         {
